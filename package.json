@@ -1,5 +1,6 @@
 {
   "name": "cuteblog-react",
+  "homepage": "https://FabianJaimes7021.github.io/FabianJaimes7021-GamesPage.github.io",
   "version": "2.1.2",
   "private": true,
   "dependencies": {
@@ -14,9 +15,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "react-scripts": "latest"
   },
   "browserslist": {
